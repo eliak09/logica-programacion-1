@@ -23,10 +23,12 @@ if (numbers[0] === numbers[1] && numbers[0] === numbers[2]) {
 
 // sort ordena de menor a mayor
 numbers.sort((a, b) => a - b);
+alert("Los números ordenados de menor a mayor son: " + numbers);
 console.log("Menor a mayor: " + numbers);
 
 //reverse ordena de mayor a menor. Agreado el operador spread no interferir en el array original.
 let numbersDesc = [...numbers].reverse();
+alert("Los números ordenados de mayor a menor son: " + numbersDesc);
 console.log("Mayor a menor: " + numbersDesc);
 
 //alerta y console.log para cada número según la posición.
