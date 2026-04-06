@@ -1,0 +1,12 @@
+// 31/03/2026 21:52
+
+console.log("Babo");
+
+//31/03/2026 23:00
+
+console.log("I really want to stay at your home");
+
+let day = 0 while (day < 4) {
+	console.log("streaming")
+	day = day ++
+}
